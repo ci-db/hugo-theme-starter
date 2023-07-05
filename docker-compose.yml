@@ -1,7 +1,7 @@
 version: "3.9"
 services:  
   hugo:
-    image: monachus/hugo
+    image: bluffy2006/hugo
     volumes:
       - ".:/usr/share/blog"
     ports:
